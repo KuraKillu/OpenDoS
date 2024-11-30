@@ -1,2 +1,5 @@
 # OpenDoS
-A Website for Cyber Security Practicum in trying DoS and Open Redirect Attack
+A Website for trying DoS and Open Redirect Attack
+
+# Purpose
+For Cyber Security Final Project
