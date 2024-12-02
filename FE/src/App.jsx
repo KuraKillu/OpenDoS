@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import React from 'react';
-import Login from './Pages/LoginPage.jsx'
-import ConfirmationPage from './Pages/ConfirmationPage.jsx'
+import Home from './pages/HomePage.jsx';
+import Page2 from './pages/OtherPage.jsx';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/confirmation" element={<ConfirmationPage />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/page2" element={<Page2 />} />
       </Routes>
     </Router>
   );
 }
 
-export default App;
+export default App
